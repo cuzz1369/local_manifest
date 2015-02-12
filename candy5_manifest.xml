@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 #G3
-  <project name="CandyDevices/android_device_lge_g3-common" path="device/lge/g3-common" remote="github" revision="c5" />
   <project name="cannondalev2000/kernel_lge_g3" path="kernel/lge/g3" remote="github" revision="c5" />
+  <project name="CandyDevices/android_device_lge_g3-common" path="device/lge/g3-common" remote="github" revision="c5" />
+
+#device
   <project name="CandyDevices/device_lge_d851" path="device/lge/d851" remote="github" revision="c5" />
   <project name="CandyDevices/device_lge_d852" path="device/lge/d852" remote="github" revision="c5" />
   <project name="CandyDevices/device_lge_ls990" path="device/lge/ls990" remote="github" revision="c5" />
@@ -64,7 +66,5 @@
     <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-12.0" />
     <project name="TheMuppets/proprietary_vendor_oppo" path="vendor/oppo" remote="github" revision="cm-12.0" />
 
-<!-- toolchains -->
-   <project name="UBERUTILS/arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm" remote="github" revision="master" />
 
 </manifest>
